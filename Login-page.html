@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+     <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #2980b9,#6dd5fa,#ffffff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+          .Login-form{
+             background: white;
+             padding: 20px;
+             border-radius: 10px;
+             box-shadow: 0 4px 10px ;
+             width: 300px;
+             text-align: center;
+
+          }
+             .Key{
+                 background: #ffffff;
+                 padding: 20px;
+                 border-radius: 10px;
+                 box-shadow: 0 4px 10px;
+                 width: 300px;
+                 text-align: center;
+             }
+               
+                  .Sumbit{
+                      background: #8fcef8;
+                      padding: 10px;
+                      width: 100px; ;
+                      color:#473131;
+                      border:none;
+                      border-radius: 60px;
+                      box-shadow: 0 4px 10px;
+                      text-align: center;
+                     
+                      
+                  }
+             
+     </style>
+</head>
+<body>
+     <center>
+         <h1>Login</h1>
+         <form action="login" method="post">
+         <div class="Login-form">
+             <label for="user Email">User Email</label>
+             <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/large_2x/user-icon-on-transparent-background-free-png.png" alt=" " width="25">
+             <input type="text" id="Email" name="Email" required>
+         </div>
+           <br>
+
+               <div class="Key">
+                <label for="Password">Password</label>
+                <img src="https://static.vecteezy.com/system/resources/previews/000/581/808/original/lock-icon-vector-illustration.jpg" alt=" " width="25" >
+                <input type="password" id="Password" name="password" required>
+                
+               </div>
+                 <br>
+
+                  
+                   <div class="Sumbit" >
+                        <label for="Sumbit"><button>Sumbit</button></label>
+                        
+                   
+                   </div>
+             </form>
+
+     </center>
+</body>
+</html>
